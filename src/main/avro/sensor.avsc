@@ -1,0 +1,27 @@
+{
+  "namespace": "sh.fer.temperaturemeasurestreams.domain",
+  "type": "record",
+  "name": "SensorMeasurements",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": "string"
+    },
+    {
+      "name": "sensorName",
+      "type": "string"
+    },
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "humidity",
+      "type": "float"
+    },
+    {
+      "name": "pressure",
+      "type": "float"
+    }
+  ]
+}

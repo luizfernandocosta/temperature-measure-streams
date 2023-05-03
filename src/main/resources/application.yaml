@@ -1,0 +1,11 @@
+quarkus:
+  kafka-streams:
+      bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVER}
+      topics: ${KAFKA_TOPICS}
+mp:
+  messaging:
+    connector:
+      smallrye-kafka:
+        apicurio:
+          registry:
+            url: ${APICURIO_SCHEMA_REGISTRY}
